@@ -12,9 +12,10 @@
     "start": {
       "name": "Python: Odoo17",
       "command": "python3 odoo-bin",
-      "runAtStart": true,
       "restartOn": {
-        "files": ["main.py"],
+        "files": [
+          "main.py"
+        ],
         "branch": false,
         "resume": false
       }
